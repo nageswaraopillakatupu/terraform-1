@@ -29,7 +29,7 @@ resource "harness_platform_service" "example" {
                                   paths:
                                     - files1
                                   repoName: <+input>
-                                  branch: master
+                                  branch: main
                               skipResourceVersioning: false
                       configFiles:
                         - configFile:
